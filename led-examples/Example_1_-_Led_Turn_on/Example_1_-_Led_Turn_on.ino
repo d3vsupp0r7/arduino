@@ -1,7 +1,7 @@
 /* Example 1 - Led Turn on
  *  
  */
-// the pin the LED is connected to
+//Declare the pin the LED is connected to
 int led = 13; 
 
 void setup() {
