@@ -3,12 +3,21 @@
 # Hardware
 
 * ESP8266-01 Board
-* Led
+* Colored Led
 
 ## Additional Hardware
+
+* Arduino breadboard
+
+
+* 3.3V / 5V power supply module for Arduino
+
 
 
 # Arduino Libraries
 
 
 # Notes
+
+# Useful Resources
+

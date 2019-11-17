@@ -1,6 +1,6 @@
 /*
-Simple webServer
-
+ * This script contains the code to show a simple web page to manage
+ * the GPIO pins of a ESP8266-01 board through web browser.
 */
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
@@ -44,7 +44,9 @@ void setup(void){
     delay(500);
     Serial.print(".");
   }
-  
+
+  /* Print WebServer info in order to obtain
+  the IP Address of the ESP8266-01 board */ 
   Serial.println("");
   Serial.print("Connected to ");
   Serial.println(ssid);
